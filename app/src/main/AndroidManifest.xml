@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IHospital"
+        tools:targetApi="31">
+        <activity
+            android:name=".ShiftShedule"
+            android:exported="false" />
+        <activity
+            android:name=".patients.PatientsInsuranceFinal"
+            android:exported="false" />
+        <activity
+            android:name=".patients.PatientsNextFinalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patients.PatientsNextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".staff.ShiftSheduleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patients.PatientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminLagout"
+            android:exported="false" />
+        <activity
+            android:name=".expense.ViewExpenseNext"
+            android:exported="false" />
+        <activity
+            android:name=".Bill.BillNextPayment"
+            android:exported="false" />
+        <activity
+            android:name=".Bill.BillEntryeExpenseAdd"
+            android:exported="false" />
+        <activity
+            android:name=".expense.ViewHealthCareTeam"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".masteradmin.MasterLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DocotorAccountDetail"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorDocumentsDetail"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorNextQualification"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".staff.StaffNextAccountDetail"
+            android:exported="false" />
+        <activity
+            android:name=".staff.StaffNextQualification"
+            android:exported="false" />
+        <activity
+            android:name=".staff.StaffActivity"
+            android:exported="false" />
+        <activity
+            android:name=".masteradmin.MasterAddminNext"
+            android:exported="false" />
+        <activity
+            android:name=".masteradmin.MasterAdmin_BottomSheet"
+            android:exported="false" />
+        <activity
+            android:name=".masteradmin.MasterAdminDashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".doctor.DocotorAccountDetail">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_background"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+            <ImageView
+                android:id="@+id/AccountBackDoctor"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/previous"
+                android:layout_marginStart="16sp"
+                app:tint="@color/whatsupcolor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/Test"
+                android:layout_height="wrap_content"
+                android:text="Doctor Registration Form"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/whatsupcolor"
+                android:layout_marginLeft="15dp"/>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:background="@color/watercolor">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:background="@color/watercolor">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:backgroundTint="@color/white"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="false">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="20dp"
+                                    android:src="@drawable/security">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:id="@+id/listText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:padding="8dp"
+                                    android:text="Account Details"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="7dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/whatsupcolor"
+                                    android:textSize="22dp" />
+
+
+                                <LinearLayout
+                                    android:id="@+id/linearLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_margin="8dp"
+                                    android:padding="8dp">
+
+
+                                    <com.google.android.material.textfield.TextInputLayout
+                                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/fname"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:inputType="text"
+                                            android:hint="Username" />
+                                    </com.google.android.material.textfield.TextInputLayout>
+
+                                    <com.google.android.material.textfield.TextInputLayout
+                                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                        android:layout_width="match_parent"
+                                        android:layout_marginTop="3dp"
+                                        android:layout_height="wrap_content">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/mname"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:inputType="numberPassword"
+                                            android:hint="Password" />
+                                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                                    <com.google.android.material.textfield.TextInputLayout
+                                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                        android:layout_width="match_parent"
+                                        android:layout_marginTop="3dp"
+                                        android:layout_height="wrap_content">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/lname"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:inputType="numberPassword"
+                                            android:hint="Confirm Password" />
+                                    </com.google.android.material.textfield.TextInputLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/PreviousDoctorAccount"
+                        style="@style/AppTheme.RoundedCornerMaterialButton"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background"
+                        android:padding="10dp"
+                        android:text="PREVIOUS"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="30dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/DoctorAccountSubmit"
+                        style="@style/AppTheme.RoundedCornerMaterialButton"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background"
+                        android:padding="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="-48dp"
+                        android:layout_gravity="right"
+                        android:text="SUBMIT"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+    </LinearLayout>
