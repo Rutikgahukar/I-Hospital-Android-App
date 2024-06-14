@@ -1,4 +1,5 @@
 # Screenshots
+![0](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/5354909b-4d38-497b-b742-0e0b90daee87)
 ![loginpage](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/3100e244-488c-4898-a255-0c7256c9e86f)
 ![hospitallogin](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/a0894964-9dd1-402a-9755-8e9b9882a897)
 ![masteradmin](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/516615fd-c643-4c7a-9f53-beb97b279de1)
@@ -8,4 +9,7 @@
 ![admin](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/a6b989a9-ea32-459d-bc43-e12a49f5a6d0)
 ![addmore](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/74903e45-88fd-467e-a252-ecbb4b2eb419)
 ![satff](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/b96b636f-ba25-4779-b002-fcadc7ec56d3)
-
+![1](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/3de6f33a-17db-4c03-b8dd-70174a695341)
+![2](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/c108d4cd-5b28-4e79-b480-c769e409cd43)
+![4](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/f8e53828-3056-4b4a-84fa-60a40912c538)
+![5](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/b271de6b-c563-4892-aa28-e64bf372f88c)
