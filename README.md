@@ -7,4 +7,4 @@
 ![admin](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/a6b989a9-ea32-459d-bc43-e12a49f5a6d0)
 ![addmore](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/74903e45-88fd-467e-a252-ecbb4b2eb419)
 ![satff](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/b96b636f-ba25-4779-b002-fcadc7ec56d3)
-![notifi](https://github.com/Rutikgahukar/Hospital-Management-System/assets/137038748/80edacce-f487-469a-b1b1-8232be90c16a)
+
